@@ -48,6 +48,7 @@
 		12CD0BCE1BC7F665000BE551 /* StackOverflowVisualiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowVisualiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowVisualiserUITests.m; sourceTree = "<group>"; };
 		12CD0BD41BC7F665000BE551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackExchangeApiKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		12CD0BAC1BC7F665000BE551 /* StackOverflowVisualiser */ = {
 			isa = PBXGroup;
 			children = (
+				12CD0BE01BC7FFBF000BE551 /* StackExchangeFetcher */,
 				12CD0BB01BC7F665000BE551 /* AppDelegate.h */,
 				12CD0BB11BC7F665000BE551 /* AppDelegate.m */,
 				12CD0BB61BC7F665000BE551 /* Main_iPhone.storyboard */,
@@ -133,6 +135,14 @@
 				12CD0BD41BC7F665000BE551 /* Info.plist */,
 			);
 			path = StackOverflowVisualiserUITests;
+			sourceTree = "<group>";
+		};
+		12CD0BE01BC7FFBF000BE551 /* StackExchangeFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */,
+			);
+			name = StackExchangeFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,6 +502,7 @@
 				12CD0BD91BC7F665000BE551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12CD0BDA1BC7F665000BE551 /* Build configuration list for PBXNativeTarget "StackOverflowVisualiserTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				12CD0BDC1BC7F665000BE551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12CD0BDD1BC7F665000BE551 /* Build configuration list for PBXNativeTarget "StackOverflowVisualiserUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +520,7 @@
 				12CD0BDF1BC7F665000BE551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
