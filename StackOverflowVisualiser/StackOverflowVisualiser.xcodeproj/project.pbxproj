@@ -11,7 +11,6 @@
 		12CD0BB21BC7F665000BE551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BB11BC7F665000BE551 /* AppDelegate.m */; };
 		12CD0BB81BC7F665000BE551 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CD0BB61BC7F665000BE551 /* Main_iPhone.storyboard */; };
 		12CD0BBA1BC7F665000BE551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CD0BB91BC7F665000BE551 /* Assets.xcassets */; };
-		12CD0BBD1BC7F665000BE551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CD0BBB1BC7F665000BE551 /* LaunchScreen.storyboard */; };
 		12CD0BC81BC7F665000BE551 /* StackOverflowVisualiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BC71BC7F665000BE551 /* StackOverflowVisualiserTests.m */; };
 		12CD0BD31BC7F665000BE551 /* StackOverflowVisualiserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */; };
 /* End PBXBuildFile section */
@@ -40,7 +39,6 @@
 		12CD0BB11BC7F665000BE551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		12CD0BB71BC7F665000BE551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		12CD0BB91BC7F665000BE551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12CD0BBC1BC7F665000BE551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CD0BBE1BC7F665000BE551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12CD0BC31BC7F665000BE551 /* StackOverflowVisualiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOverflowVisualiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CD0BC71BC7F665000BE551 /* StackOverflowVisualiserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowVisualiserTests.m; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				12CD0BB11BC7F665000BE551 /* AppDelegate.m */,
 				12CD0BB61BC7F665000BE551 /* Main_iPhone.storyboard */,
 				12CD0BB91BC7F665000BE551 /* Assets.xcassets */,
-				12CD0BBB1BC7F665000BE551 /* LaunchScreen.storyboard */,
 				12CD0BBE1BC7F665000BE551 /* Info.plist */,
 				12CD0BAD1BC7F665000BE551 /* Supporting Files */,
 			);
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CD0BBD1BC7F665000BE551 /* LaunchScreen.storyboard in Resources */,
 				12CD0BBA1BC7F665000BE551 /* Assets.xcassets in Resources */,
 				12CD0BB81BC7F665000BE551 /* Main_iPhone.storyboard in Resources */,
 			);
@@ -318,14 +314,6 @@
 				12CD0BB71BC7F665000BE551 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		12CD0BBB1BC7F665000BE551 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12CD0BBC1BC7F665000BE551 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
