@@ -1,6 +1,6 @@
 //
-//  StckOverflowVisualiserTests.m
-//  StckOverflowVisualiserTests
+//  StackOverflowVisualiserTests.m
+//  StackOverflowVisualiserTests
 //
 //  Created by Madalina Melinte on 09/10/15.
 //  Copyright © 2015 Madalina Melinte. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface StckOverflowVisualiserTests : XCTestCase
+@interface StackOverflowVisualiserTests : XCTestCase
 
 @end
 
-@implementation StckOverflowVisualiserTests
+@implementation StackOverflowVisualiserTests
 
 - (void)setUp {
     [super setUp];

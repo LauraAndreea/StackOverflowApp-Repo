@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12CD0B6A1BC7F250000BE551"
-               BuildableName = "StckOverflowVisualiser.app"
-               BlueprintName = "StckOverflowVisualiser"
-               ReferencedContainer = "container:StckOverflowVisualiser.xcodeproj">
+               BlueprintIdentifier = "12CD0BA91BC7F665000BE551"
+               BuildableName = "StackOverflowVisualiser.app"
+               BlueprintName = "StackOverflowVisualiser"
+               ReferencedContainer = "container:StackOverflowVisualiser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12CD0B831BC7F250000BE551"
-               BuildableName = "StckOverflowVisualiserTests.xctest"
-               BlueprintName = "StckOverflowVisualiserTests"
-               ReferencedContainer = "container:StckOverflowVisualiser.xcodeproj">
+               BlueprintIdentifier = "12CD0BC21BC7F665000BE551"
+               BuildableName = "StackOverflowVisualiserTests.xctest"
+               BlueprintName = "StackOverflowVisualiserTests"
+               ReferencedContainer = "container:StackOverflowVisualiser.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12CD0B8E1BC7F250000BE551"
-               BuildableName = "StckOverflowVisualiserUITests.xctest"
-               BlueprintName = "StckOverflowVisualiserUITests"
-               ReferencedContainer = "container:StckOverflowVisualiser.xcodeproj">
+               BlueprintIdentifier = "12CD0BCD1BC7F665000BE551"
+               BuildableName = "StackOverflowVisualiserUITests.xctest"
+               BlueprintName = "StackOverflowVisualiserUITests"
+               ReferencedContainer = "container:StackOverflowVisualiser.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "12CD0B6A1BC7F250000BE551"
-            BuildableName = "StckOverflowVisualiser.app"
-            BlueprintName = "StckOverflowVisualiser"
-            ReferencedContainer = "container:StckOverflowVisualiser.xcodeproj">
+            BlueprintIdentifier = "12CD0BA91BC7F665000BE551"
+            BuildableName = "StackOverflowVisualiser.app"
+            BlueprintName = "StackOverflowVisualiser"
+            ReferencedContainer = "container:StackOverflowVisualiser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "12CD0B6A1BC7F250000BE551"
-            BuildableName = "StckOverflowVisualiser.app"
-            BlueprintName = "StckOverflowVisualiser"
-            ReferencedContainer = "container:StckOverflowVisualiser.xcodeproj">
+            BlueprintIdentifier = "12CD0BA91BC7F665000BE551"
+            BuildableName = "StackOverflowVisualiser.app"
+            BlueprintName = "StackOverflowVisualiser"
+            ReferencedContainer = "container:StackOverflowVisualiser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "12CD0B6A1BC7F250000BE551"
-            BuildableName = "StckOverflowVisualiser.app"
-            BlueprintName = "StckOverflowVisualiser"
-            ReferencedContainer = "container:StckOverflowVisualiser.xcodeproj">
+            BlueprintIdentifier = "12CD0BA91BC7F665000BE551"
+            BuildableName = "StackOverflowVisualiser.app"
+            BlueprintName = "StackOverflowVisualiser"
+            ReferencedContainer = "container:StackOverflowVisualiser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

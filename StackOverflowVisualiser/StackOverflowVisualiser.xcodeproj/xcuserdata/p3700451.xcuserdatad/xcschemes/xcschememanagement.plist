@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>StckOverflowVisualiser.xcscheme</key>
+		<key>StackOverflowVisualiser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>12CD0B6A1BC7F250000BE551</key>
+		<key>12CD0BA91BC7F665000BE551</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12CD0B831BC7F250000BE551</key>
+		<key>12CD0BC21BC7F665000BE551</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12CD0B8E1BC7F250000BE551</key>
+		<key>12CD0BCD1BC7F665000BE551</key>
 		<dict>
 			<key>primary</key>
 			<true/>
