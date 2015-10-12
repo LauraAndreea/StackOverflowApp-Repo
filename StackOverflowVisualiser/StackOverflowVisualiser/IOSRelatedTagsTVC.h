@@ -7,7 +7,10 @@
 //
 
 #import "RelatedTagsTVC.h"
+#import "Question.h"
 
 @interface IOSRelatedTagsTVC : RelatedTagsTVC
+
+@property (strong, nonatomic)NSMutableArray<Question *> *questions;
 
 @end

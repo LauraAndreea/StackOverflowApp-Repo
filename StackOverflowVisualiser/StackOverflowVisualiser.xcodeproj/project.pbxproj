@@ -17,6 +17,9 @@
 		12CD0BD31BC7F665000BE551 /* StackOverflowVisualiserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */; };
 		12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BE31BC80A9F000BE551 /* StackExchange.m */; settings = {ASSET_TAGS = (); }; };
 		3B7F076B1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F076A1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m */; settings = {ASSET_TAGS = (); }; };
+		3B7F077F1BCBC3F600D5EEE8 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F077E1BCBC3F600D5EEE8 /* Question.m */; settings = {ASSET_TAGS = (); }; };
+		3B7F07821BCBC5B800D5EEE8 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F07811BCBC5B800D5EEE8 /* Answer.m */; settings = {ASSET_TAGS = (); }; };
+		3B7F07881BCBC80F00D5EEE8 /* QuestionTagsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F07871BCBC80F00D5EEE8 /* QuestionTagsTVC.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		12CD0BE31BC80A9F000BE551 /* StackExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackExchange.m; sourceTree = "<group>"; };
 		3B7F07691BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackoverflowAsyncRequestHelper.h; sourceTree = "<group>"; };
 		3B7F076A1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackoverflowAsyncRequestHelper.m; sourceTree = "<group>"; };
+		3B7F077D1BCBC3F600D5EEE8 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		3B7F077E1BCBC3F600D5EEE8 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		3B7F07801BCBC5B800D5EEE8 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		3B7F07811BCBC5B800D5EEE8 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		3B7F07861BCBC80F00D5EEE8 /* QuestionTagsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTagsTVC.h; sourceTree = "<group>"; };
+		3B7F07871BCBC80F00D5EEE8 /* QuestionTagsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTagsTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,7 @@
 		12CD0BAC1BC7F665000BE551 /* StackOverflowVisualiser */ = {
 			isa = PBXGroup;
 			children = (
+				3B7F077C1BCBC3DA00D5EEE8 /* Model */,
 				3B7F07681BCBA3A000D5EEE8 /* Controllers */,
 				12CD0BE01BC7FFBF000BE551 /* StackExchangeFetcher */,
 				12CD0BB01BC7F665000BE551 /* AppDelegate.h */,
@@ -166,8 +176,21 @@
 				129D3C1A1BCBA59000125113 /* RelatedTagsTVC.m */,
 				129D3C1C1BCBAAB200125113 /* IOSRelatedTagsTVC.h */,
 				129D3C1D1BCBAAB200125113 /* IOSRelatedTagsTVC.m */,
+				3B7F07861BCBC80F00D5EEE8 /* QuestionTagsTVC.h */,
+				3B7F07871BCBC80F00D5EEE8 /* QuestionTagsTVC.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3B7F077C1BCBC3DA00D5EEE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B7F077D1BCBC3F600D5EEE8 /* Question.h */,
+				3B7F077E1BCBC3F600D5EEE8 /* Question.m */,
+				3B7F07801BCBC5B800D5EEE8 /* Answer.h */,
+				3B7F07811BCBC5B800D5EEE8 /* Answer.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +325,11 @@
 				129D3C1B1BCBA59000125113 /* RelatedTagsTVC.m in Sources */,
 				129D3C1E1BCBAAB200125113 /* IOSRelatedTagsTVC.m in Sources */,
 				12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */,
+				3B7F07821BCBC5B800D5EEE8 /* Answer.m in Sources */,
 				12CD0BB21BC7F665000BE551 /* AppDelegate.m in Sources */,
+				3B7F077F1BCBC3F600D5EEE8 /* Question.m in Sources */,
 				12CD0BAF1BC7F665000BE551 /* main.m in Sources */,
+				3B7F07881BCBC80F00D5EEE8 /* QuestionTagsTVC.m in Sources */,
 				3B7F076B1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
