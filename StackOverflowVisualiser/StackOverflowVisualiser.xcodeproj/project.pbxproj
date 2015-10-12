@@ -13,8 +13,7 @@
 		12CD0BBA1BC7F665000BE551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CD0BB91BC7F665000BE551 /* Assets.xcassets */; };
 		12CD0BC81BC7F665000BE551 /* StackOverflowVisualiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BC71BC7F665000BE551 /* StackOverflowVisualiserTests.m */; };
 		12CD0BD31BC7F665000BE551 /* StackOverflowVisualiserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */; };
-		3B7F075F1BCB9ADE00D5EEE8 /* AsyncRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F075E1BCB9ADE00D5EEE8 /* AsyncRequestHelper.m */; settings = {ASSET_TAGS = (); }; };
-		3B7F07651BCB9C3200D5EEE8 /* TagsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F07641BCB9C3200D5EEE8 /* TagsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BE31BC80A9F000BE551 /* StackExchange.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +48,8 @@
 		12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowVisualiserUITests.m; sourceTree = "<group>"; };
 		12CD0BD41BC7F665000BE551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackExchangeApiKey.h; sourceTree = "<group>"; };
-		3B7F075D1BCB9ADE00D5EEE8 /* AsyncRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncRequestHelper.h; sourceTree = "<group>"; };
-		3B7F075E1BCB9ADE00D5EEE8 /* AsyncRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncRequestHelper.m; sourceTree = "<group>"; };
-		3B7F07631BCB9C3200D5EEE8 /* TagsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsTableViewController.h; sourceTree = "<group>"; };
-		3B7F07641BCB9C3200D5EEE8 /* TagsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsTableViewController.m; sourceTree = "<group>"; };
+		12CD0BE21BC80A9F000BE551 /* StackExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackExchange.h; sourceTree = "<group>"; };
+		12CD0BE31BC80A9F000BE551 /* StackExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackExchange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +100,9 @@
 		12CD0BAC1BC7F665000BE551 /* StackOverflowVisualiser */ = {
 			isa = PBXGroup;
 			children = (
-				3B7F07621BCB9BB300D5EEE8 /* Views */,
-				3B7F07611BCB9B8700D5EEE8 /* Controllers */,
-				3B7F07601BCB9B7900D5EEE8 /* Model */,
 				12CD0BE01BC7FFBF000BE551 /* StackExchangeFetcher */,
 				12CD0BB01BC7F665000BE551 /* AppDelegate.h */,
 				12CD0BB11BC7F665000BE551 /* AppDelegate.m */,
-				3B7F075D1BCB9ADE00D5EEE8 /* AsyncRequestHelper.h */,
-				3B7F075E1BCB9ADE00D5EEE8 /* AsyncRequestHelper.m */,
 				12CD0BB61BC7F665000BE551 /* Main_iPhone.storyboard */,
 				12CD0BB91BC7F665000BE551 /* Assets.xcassets */,
 				12CD0BBE1BC7F665000BE551 /* Info.plist */,
@@ -149,31 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */,
+				12CD0BE21BC80A9F000BE551 /* StackExchange.h */,
+				12CD0BE31BC80A9F000BE551 /* StackExchange.m */,
 			);
 			name = StackExchangeFetcher;
-			sourceTree = "<group>";
-		};
-		3B7F07601BCB9B7900D5EEE8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		3B7F07611BCB9B8700D5EEE8 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				3B7F07631BCB9C3200D5EEE8 /* TagsTableViewController.h */,
-				3B7F07641BCB9C3200D5EEE8 /* TagsTableViewController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		3B7F07621BCB9BB300D5EEE8 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,9 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */,
 				12CD0BB21BC7F665000BE551 /* AppDelegate.m in Sources */,
-				3B7F075F1BCB9ADE00D5EEE8 /* AsyncRequestHelper.m in Sources */,
-				3B7F07651BCB9C3200D5EEE8 /* TagsTableViewController.m in Sources */,
 				12CD0BAF1BC7F665000BE551 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
