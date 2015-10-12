@@ -9,6 +9,8 @@
 #import "RelatedTagsTVC.h"
 
 @implementation RelatedTagsTVC
+
+#pragma mark - Properties
  
 - (void)setTags:(NSArray *)tags
 {

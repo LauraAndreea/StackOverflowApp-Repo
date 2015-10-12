@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="327.75" y="271.5"/>
         </scene>
-        <!--Question TagsTVC-->
+        <!--Question Related TagsTVC-->
         <scene sceneID="z6O-cH-7rg">
             <objects>
-                <tableViewController id="ux7-l5-byo" customClass="QuestionTagsTVC" sceneMemberID="viewController">
+                <tableViewController id="ux7-l5-byo" customClass="QuestionRelatedTagsTVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Gw3-Jf-vJo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,7 +99,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ka1-dN-aUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1065.75" y="271.5"/>
+            <point key="canvasLocation" x="945.5" y="271.5"/>
         </scene>
     </scenes>
 </document>
