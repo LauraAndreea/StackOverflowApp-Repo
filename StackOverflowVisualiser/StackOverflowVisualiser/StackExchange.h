@@ -8,10 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+// keys (paths) to values in a related tag dictionary
 #define STACK_EXCHANGE_ITEMS_NAME @"items.name"
+
+// keys (paths) to values in a search tag dictionary
+#define STACK_EXCHANGE_ITEMS @"items"
+#define STACK_EXCHANGE_ITEM_QUESTION_ID @"question_id"
+#define STACK_EXCHANGE_ITEM_QUESTION_TITLE @"title"
 
 @interface StackExchange : NSObject
 
 + (NSURL *)URLForRelatedTags;
++ (NSURL *)URLForSearch: (NSString *)tag;
 
 @end
