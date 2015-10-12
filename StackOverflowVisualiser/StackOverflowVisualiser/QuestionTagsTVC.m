@@ -17,13 +17,20 @@
 
 @implementation QuestionTagsTVC
 
+#pragma mark - Properties
+
+- (void)setQuestions:(NSMutableArray<Question *> *)questions
+{
+    _questions = questions;
+    [self.tableView reloadData];
+}
+
+#pragma mark - View Controller Lifecycle
+
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-  
 }
-
-
 
 #pragma mark - Table view data source
 
@@ -35,25 +42,22 @@
     return [self.questions count];
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Question Cell" forIndexPath:indexPath];
     cell.textLabel.text = self.questions[indexPath.row].titleOfQuestion ;
     
-
-    
- return cell;
+    return cell;
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
