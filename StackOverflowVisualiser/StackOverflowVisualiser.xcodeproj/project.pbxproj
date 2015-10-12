@@ -14,6 +14,7 @@
 		12CD0BC81BC7F665000BE551 /* StackOverflowVisualiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BC71BC7F665000BE551 /* StackOverflowVisualiserTests.m */; };
 		12CD0BD31BC7F665000BE551 /* StackOverflowVisualiserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */; };
 		12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BE31BC80A9F000BE551 /* StackExchange.m */; settings = {ASSET_TAGS = (); }; };
+		3B7F076B1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F076A1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackExchangeApiKey.h; sourceTree = "<group>"; };
 		12CD0BE21BC80A9F000BE551 /* StackExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackExchange.h; sourceTree = "<group>"; };
 		12CD0BE31BC80A9F000BE551 /* StackExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackExchange.m; sourceTree = "<group>"; };
+		3B7F07691BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackoverflowAsyncRequestHelper.h; sourceTree = "<group>"; };
+		3B7F076A1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackoverflowAsyncRequestHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */,
 				12CD0BE21BC80A9F000BE551 /* StackExchange.h */,
 				12CD0BE31BC80A9F000BE551 /* StackExchange.m */,
+				3B7F07691BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.h */,
+				3B7F076A1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m */,
 			);
 			name = StackExchangeFetcher;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 				12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */,
 				12CD0BB21BC7F665000BE551 /* AppDelegate.m in Sources */,
 				12CD0BAF1BC7F665000BE551 /* main.m in Sources */,
+				3B7F076B1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
