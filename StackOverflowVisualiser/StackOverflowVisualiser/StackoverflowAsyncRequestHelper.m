@@ -11,7 +11,7 @@
 @interface StackoverflowAsyncRequestHelper()
 {
     StackoverflowRequestCompletionBlock _completionHandler;
-    NSString *_stringURL;
+    NSURL *_stringURL;
     NSData *_dataFromURL;
     NSURLSessionDataTask *_dataTask;
 }
@@ -19,7 +19,7 @@
 
 @implementation StackoverflowAsyncRequestHelper
 
--(instancetype)initWithURL:(NSString *)stringURL
+-(instancetype)initWithURL:(NSURL *)stringURL
 {
     self = [super init];
     if (self) {
@@ -34,11 +34,11 @@
     [self startRequestWithUrl:_stringURL];
 }
 
--(void)startRequestWithUrl:(NSString *)stringUrl
+-(void)startRequestWithUrl:(NSURL *)stringUrl
 {
-    NSURL * url = [[NSURL alloc]initWithString:stringUrl];
+    
     NSURLSession * session = [NSURLSession sharedSession];
-    _dataTask = [session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
+    _dataTask = [session dataTaskWithURL:stringUrl completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
                  {
                      [self executeBlock:data];
                  }];

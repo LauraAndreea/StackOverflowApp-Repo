@@ -9,13 +9,13 @@
 #import "RelatedTagsTVC.h"
 
 @implementation RelatedTagsTVC
-
-
+ 
 - (void)setTags:(NSArray *)tags
 {
     _tags= tags;
     [self.tableView reloadData];
 }
+
 #pragma mark - UITableViewDataSource
 
 
@@ -31,10 +31,9 @@
     return [self.tags count];
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Flickr Place Cell";
+    static NSString *CellIdentifier = @"Tag Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     NSString *tag=self.tags[indexPath.row];
     

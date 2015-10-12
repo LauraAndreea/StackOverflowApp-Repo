@@ -12,7 +12,7 @@ typedef void (^StackoverflowRequestCompletionBlock)(NSData* responseData);
 
 @interface StackoverflowAsyncRequestHelper : NSObject
 
--(instancetype)initWithURL:(NSString *)requestURL;
+-(instancetype)initWithURL:(NSURL *)requestURL;
 -(void)startRequestWithCompletionBlock:(StackoverflowRequestCompletionBlock)completionBlock;
 -(void)cancelRequest;
 
