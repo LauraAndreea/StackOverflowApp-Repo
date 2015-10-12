@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#define STACK_EXCHANGE_ITEMS_NAME @"items.name"
+
 @interface StackExchange : NSObject
+
++ (NSURL *)URLForRelatedTags;
 
 @end

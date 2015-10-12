@@ -11,11 +11,18 @@
 
 @implementation StackExchange
 
+#define TAG @"ios"
+
 + (NSURL *)URLForQuery:(NSString *)query
 {
     query = [NSString stringWithFormat:@"%@&format=json&nojsoncallback=1&api_key=%@", query,StackExchangeApiKey];
     query = [query stringByAddingPercentEncodingWithAllowedCharacters:(NSCharacterSet.URLQueryAllowedCharacterSet)];
     return [NSURL URLWithString:query];
+}
+
++ (NSURL *)URLForRelatedTags
+{
+    return [self URLForQuery:[NSString stringWithFormat:@"https://api.stackexchange.com/2.2/tags/%@/related?site=stackoverflow",TAG]];
 }
 
 @end
