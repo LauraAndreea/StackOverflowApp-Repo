@@ -13,6 +13,7 @@
 		12CD0BBA1BC7F665000BE551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CD0BB91BC7F665000BE551 /* Assets.xcassets */; };
 		12CD0BC81BC7F665000BE551 /* StackOverflowVisualiserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BC71BC7F665000BE551 /* StackOverflowVisualiserTests.m */; };
 		12CD0BD31BC7F665000BE551 /* StackOverflowVisualiserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */; };
+		12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD0BE31BC80A9F000BE551 /* StackExchange.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		12CD0BD21BC7F665000BE551 /* StackOverflowVisualiserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowVisualiserUITests.m; sourceTree = "<group>"; };
 		12CD0BD41BC7F665000BE551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackExchangeApiKey.h; sourceTree = "<group>"; };
+		12CD0BE21BC80A9F000BE551 /* StackExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackExchange.h; sourceTree = "<group>"; };
+		12CD0BE31BC80A9F000BE551 /* StackExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackExchange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				12CD0BE11BC80072000BE551 /* StackExchangeApiKey.h */,
+				12CD0BE21BC80A9F000BE551 /* StackExchange.h */,
+				12CD0BE31BC80A9F000BE551 /* StackExchange.m */,
 			);
 			name = StackExchangeFetcher;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */,
 				12CD0BB21BC7F665000BE551 /* AppDelegate.m in Sources */,
 				12CD0BAF1BC7F665000BE551 /* main.m in Sources */,
 			);
