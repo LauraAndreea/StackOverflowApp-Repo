@@ -30,11 +30,13 @@
             NSDictionary *propertyListResults = [NSJSONSerialization JSONObjectWithData:responseData
                                                                                 options:0
                                                                                   error:NULL];
+            NSLog(@"P%@",propertyListResults);
             NSArray *items = [propertyListResults valueForKeyPath:STACK_EXCHANGE_ITEMS];
             for (NSDictionary *item in items) {
                 Question *question  = [[Question alloc]init];
                 question.questionId = [item valueForKeyPath:STACK_EXCHANGE_ITEM_QUESTION_ID];
                 question.titleOfQuestion = [item valueForKeyPath:STACK_EXCHANGE_ITEM_QUESTION_TITLE];
+                question.questionBody=[item valueForKeyPath: STACK_EXCHANGE_ITEM_QUESTION_BODY];
                 [questions addObject:question];
             }
             self.questions=questions;

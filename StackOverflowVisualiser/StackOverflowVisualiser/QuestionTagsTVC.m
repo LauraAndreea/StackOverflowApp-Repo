@@ -45,7 +45,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Question Cell" forIndexPath:indexPath];
-    cell.textLabel.text = self.questions[indexPath.row].titleOfQuestion ;
+    cell.textLabel.text = self.questions[indexPath.row].titleOfQuestion;
     
     return cell;
 }

@@ -15,10 +15,10 @@
 #define STACK_EXCHANGE_ITEMS @"items"
 #define STACK_EXCHANGE_ITEM_QUESTION_ID @"question_id"
 #define STACK_EXCHANGE_ITEM_QUESTION_TITLE @"title"
+#define STACK_EXCHANGE_ITEM_QUESTION_BODY @"body"
 
 @interface StackExchange : NSObject
 
 + (NSURL *)URLForRelatedTags;
 + (NSURL *)URLForSearch: (NSString *)tag;
-
 @end
