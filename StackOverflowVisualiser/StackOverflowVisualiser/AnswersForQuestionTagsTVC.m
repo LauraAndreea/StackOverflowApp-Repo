@@ -17,10 +17,8 @@
 -(void)setAnswers:(NSMutableArray<Answer *> *)answers
 {
     _answers = answers;
-}
-- (void)viewDidLoad {
-    [super viewDidLoad];
     [self.tableView reloadData];
+
 }
 
 #pragma mark - Table view data source

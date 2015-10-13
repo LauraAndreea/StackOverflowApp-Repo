@@ -24,7 +24,7 @@
 
 -(void)fetchAnswers
 {
-    NSURL *searchAnswerURL = [StackExchange URLForSearch:self.questionId];
+    NSURL *searchAnswerURL = [StackExchange URLforAnswersWhereQuestionIdIs:self.questionId];
     NSMutableArray<Answer *>  *answers = [[NSMutableArray alloc]init];
     StackoverflowAsyncRequestHelper *asyncRequest = [[StackoverflowAsyncRequestHelper alloc]initWithURL: searchAnswerURL];
     
@@ -36,8 +36,8 @@
             NSArray *items = [propertyListResults valueForKeyPath:STACK_EXCHANGE_ITEMS];
             for (NSDictionary *item in items) {
                 Answer *answer  = [[Answer alloc]init];
-                answer.answerId = [item valueForKeyPath:STACK_EXCHANGE_ITEM_QUESTION_ID];
-                answer.titleForAnswer = [item valueForKeyPath:STACK_EXCHANGE_ITEM_QUESTION_TITLE];
+                answer.answerId = [item valueForKeyPath:STACK_EXCHANGE_ITEM_ANSWER_ID];
+                answer.titleForAnswer = [item valueForKeyPath:STACK_EXCHANGE_ITEM_BODY];
                 [answers addObject:answer];
             }
             self.answers=answers;
