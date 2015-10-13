@@ -13,5 +13,7 @@
 
 @property (nonatomic, strong) NSString *questionId;
 @property (nonatomic, strong) NSString *titleOfQuestion;
+@property (nonatomic, strong) NSString *questionBody;
 @property (nonatomic, strong) NSMutableArray<Answer *> *answersForQuestion;
+
 @end

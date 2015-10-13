@@ -27,7 +27,7 @@
 
 +(NSURL *)URLForSearch: (NSString *)tag
 {
-    return [self URLForQuery:[NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search?order=desc&sort=activity&tagged=%@&site=stackoverflow",tag]];
+    return [self URLForQuery:[NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search?order=desc&sort=activity&tagged=%@&site=stackoverflow&filter=withbody",tag]];
 }
 
 @end
