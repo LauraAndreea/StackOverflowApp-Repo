@@ -9,6 +9,9 @@
 #import "QuestionRelatedTagsTVC.h"
 #import "StackoverflowAsyncRequestHelper.h"
 #import "StackExchange.h"
+#import "AnswersForQuestionRelatedTagsTVC.h"
+#import "AnswersForQuestionTagsTVC.h"
+
 @implementation QuestionRelatedTagsTVC
 
 #pragma mark - View Controller Lifecycle
@@ -45,4 +48,22 @@
     });
 }
 
+#pragma mark - Navigation
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    NSIndexPath *indexPath = nil;
+    if ([segue.identifier isEqualToString:@"Display Answers"]) {
+        if ([segue.destinationViewController isKindOfClass:[AnswersForQuestionRelatedTagsTVC class]]) {
+            indexPath = [self.tableView indexPathForSelectedRow];
+            AnswersForQuestionTagsTVC* tvc=(AnswersForQuestionRelatedTagsTVC*)segue.destinationViewController;
+            tvc.questionId=self.questions[indexPath.row].questionId;
+            
+        }
+        
+    }
+    
+}
 @end

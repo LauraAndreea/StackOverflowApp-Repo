@@ -24,7 +24,6 @@
 
 -(void)fetchAnswers
 {
-#warning implement correct url
     NSURL *searchAnswerURL = [StackExchange URLForSearch:self.questionId];
     NSMutableArray<Answer *>  *answers = [[NSMutableArray alloc]init];
     StackoverflowAsyncRequestHelper *asyncRequest = [[StackoverflowAsyncRequestHelper alloc]initWithURL: searchAnswerURL];
