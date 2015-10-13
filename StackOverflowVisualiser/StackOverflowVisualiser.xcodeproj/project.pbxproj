@@ -21,6 +21,8 @@
 		3B7F077F1BCBC3F600D5EEE8 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F077E1BCBC3F600D5EEE8 /* Question.m */; settings = {ASSET_TAGS = (); }; };
 		3B7F07821BCBC5B800D5EEE8 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F07811BCBC5B800D5EEE8 /* Answer.m */; settings = {ASSET_TAGS = (); }; };
 		3B7F07881BCBC80F00D5EEE8 /* QuestionTagsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F07871BCBC80F00D5EEE8 /* QuestionTagsTVC.m */; settings = {ASSET_TAGS = (); }; };
+		3B9D74B51BCCE04E00B8241F /* AnswersForQuestionTagsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D74B41BCCE04E00B8241F /* AnswersForQuestionTagsTVC.m */; settings = {ASSET_TAGS = (); }; };
+		3B9D74B81BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D74B71BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,10 @@
 		3B7F07811BCBC5B800D5EEE8 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
 		3B7F07861BCBC80F00D5EEE8 /* QuestionTagsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTagsTVC.h; sourceTree = "<group>"; };
 		3B7F07871BCBC80F00D5EEE8 /* QuestionTagsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTagsTVC.m; sourceTree = "<group>"; };
+		3B9D74B31BCCE04E00B8241F /* AnswersForQuestionTagsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswersForQuestionTagsTVC.h; sourceTree = "<group>"; };
+		3B9D74B41BCCE04E00B8241F /* AnswersForQuestionTagsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswersForQuestionTagsTVC.m; sourceTree = "<group>"; };
+		3B9D74B61BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswersForQuestionRelatedTagsTVC.h; sourceTree = "<group>"; };
+		3B9D74B71BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswersForQuestionRelatedTagsTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,10 @@
 				3B7F07871BCBC80F00D5EEE8 /* QuestionTagsTVC.m */,
 				129D3C1F1BCBEBA300125113 /* QuestionRelatedTagsTVC.h */,
 				129D3C201BCBEBA300125113 /* QuestionRelatedTagsTVC.m */,
+				3B9D74B31BCCE04E00B8241F /* AnswersForQuestionTagsTVC.h */,
+				3B9D74B41BCCE04E00B8241F /* AnswersForQuestionTagsTVC.m */,
+				3B9D74B61BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.h */,
+				3B9D74B71BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -331,9 +341,11 @@
 				129D3C1E1BCBAAB200125113 /* IOSRelatedTagsTVC.m in Sources */,
 				129D3C211BCBEBA300125113 /* QuestionRelatedTagsTVC.m in Sources */,
 				12CD0BE41BC80A9F000BE551 /* StackExchange.m in Sources */,
+				3B9D74B81BCCE0AB00B8241F /* AnswersForQuestionRelatedTagsTVC.m in Sources */,
 				3B7F07821BCBC5B800D5EEE8 /* Answer.m in Sources */,
 				12CD0BB21BC7F665000BE551 /* AppDelegate.m in Sources */,
 				3B7F077F1BCBC3F600D5EEE8 /* Question.m in Sources */,
+				3B9D74B51BCCE04E00B8241F /* AnswersForQuestionTagsTVC.m in Sources */,
 				12CD0BAF1BC7F665000BE551 /* main.m in Sources */,
 				3B7F07881BCBC80F00D5EEE8 /* QuestionTagsTVC.m in Sources */,
 				3B7F076B1BCBA43200D5EEE8 /* StackoverflowAsyncRequestHelper.m in Sources */,
