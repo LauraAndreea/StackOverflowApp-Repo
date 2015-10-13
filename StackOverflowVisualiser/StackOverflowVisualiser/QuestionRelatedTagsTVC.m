@@ -39,7 +39,7 @@
                 Question *question  = [[Question alloc]init];
                 question.questionId = [item valueForKeyPath:STACK_EXCHANGE_ITEM_QUESTION_ID];
                 question.titleOfQuestion = [item valueForKeyPath:STACK_EXCHANGE_ITEM_QUESTION_TITLE];
-                question.questionBody=[item valueForKeyPath: STACK_EXCHANGE_ITEM_QUESTION_BODY];
+                question.questionBody=[item valueForKeyPath:STACK_EXCHANGE_ITEM_BODY];
                 [questions addObject:question];
             }
             self.questions=questions;
