@@ -38,6 +38,13 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Answer Cell" forIndexPath:indexPath];
     cell.textLabel.text = self.answers[indexPath.row].titleForAnswer;
+    NSMutableAttributedString *updateText =
+    [[NSMutableAttributedString alloc] initWithData:[self.answers[indexPath.row].titleForAnswer dataUsingEncoding:NSUTF8StringEncoding]
+                                            options:@{NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType,
+                                                      NSCharacterEncodingDocumentAttribute: [NSNumber numberWithInt:NSUTF8StringEncoding]}
+                                 documentAttributes:nil
+                                              error:nil];
+    [cell.textLabel setAttributedText:updateText];
     
     return cell;
 }
