@@ -30,4 +30,9 @@
     return [self URLForQuery:[NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search?order=desc&sort=activity&tagged=%@&site=stackoverflow&filter=withbody",tag]];
 }
 
++(NSURL *) URLforAnswersWhereQuestionIdIs:(NSString *)questionId
+{
+    return [self URLForQuery:[NSString stringWithFormat:@"https://api.stackexchange.com/2.2/questions/%@/answers?order=desc&sort=activity&site=stackoverflow&filter=withbody",questionId]];
+}
+
 @end
